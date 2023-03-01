@@ -4,7 +4,7 @@ The cloud resume challenge can be found here: https://cloudresumechallenge.dev/d
 
 # Overview
 
-Using HTML and CSS, I have created the front-end of my site. I did not use a template except for the meter element.  
+Using HTML and CSS, I have created the front-end of my site. I did not use a template except for the meter element. I purchased my domain from google with a .dev and deployed it using Azure CLI instead of the portal just to practice. In this repo you will find all of the scripts that I wrote for the front-end of my site. You can find the end product here: 
 
 # How I created certain elements 
 
