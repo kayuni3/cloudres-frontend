@@ -27,7 +27,9 @@ A full column under your header could look like:
  
  
    
-   example  { width: 100%;  
+   example{   
+   
+    width: 100%;  
     
     margin-top: 4em;  
     
@@ -38,7 +40,8 @@ A full column under your header could look like:
     }. 
     
    
-   footer {  
+   footer {    
+   
         width: 100%;  
         
         bottom: 0; ~setting the bottom sticks the footer to the bottom. 
@@ -49,7 +52,7 @@ A full column under your header could look like:
 Paradoxical scrolling of navigation bar and footer: Set position property to fixed of selector.   
 
 
-example { 
+example {   
 
     postion: fixed;
     
