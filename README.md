@@ -19,10 +19,14 @@ A full column under your header could look like:
    
  Two equal columns could look like:
  .example {
-    width: 100%;
-    margin-top: 4em;
-    margin-bottom: 5em;
-    padding: 2em;
+    width: 100%;  
+    
+    margin-top: 4em;  
+    
+    margin-bottom: 5em;  
+    
+    padding: 2em;  
+    
     }
    
    footer {  
