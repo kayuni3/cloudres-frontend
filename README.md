@@ -25,9 +25,9 @@ A full column under your header could look like:
     padding: 2em;
     }
    
-   footer {
-    width: 100%;
-    bottom: 0; ~setting the bottom sticks the footer to the bottom
+   footer {  
+        width: 100%;  
+        bottom: 0; ~setting the bottom sticks the footer to the bottom
    } 
  
 
