@@ -62,3 +62,9 @@ example {
 # Creating the static website 
 
 This part was super easy. In the Azure portal, I selected the storage account resource, created a resource group for the storage account. Once the storage account was created, in the Overview tab, under capabilities, I selected "static website", uploaded all of my files (it took a few minutes for the site to actually configure which scared me for a second). Once my site was created, I enabled a CDN endpoint and created a DNS zone.   purchased a $10 custom domain from Google Domains. I then connected my custom domain to my CDN endpoint. & Voila! www.kayuni.dev!
+
+# Documentation used
+
+Custom domain name: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-custom-domain-name?tabs=azure-portal
+HTTP to HTTPS redirect: https://learn.microsoft.com/en-us/azure/cdn/cdn-standard-rules-engine
+Configuring GitHub Actions: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions?tabs=userlevel
