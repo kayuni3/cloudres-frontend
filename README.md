@@ -58,6 +58,8 @@ example {
     
     }
 
+I linked my CSS file separately since I had about 5 different html pages so it would be easier to make changes to my page theme. 
+
 
 # Creating the static website 
 
