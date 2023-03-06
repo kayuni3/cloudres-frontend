@@ -202,6 +202,16 @@ footer a, section a{
       text-align: center;
       float: none;
     }
+	h1{
+    font-family: 'Fraunces', serif;
+    font-size: 4em;
+    text-align: center;
+    color: azure;
+    font-weight: 700;
+    text-transform: lowercase;
+    margin: 0;
+    padding: 0;
+}
   }
 
 
