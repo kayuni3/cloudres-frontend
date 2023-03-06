@@ -67,6 +67,9 @@ This part was super easy. In the Azure portal, I selected the storage account re
 
 # Documentation used
 
-Custom domain name: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-custom-domain-name?tabs=azure-portal
-HTTP to HTTPS redirect: https://learn.microsoft.com/en-us/azure/cdn/cdn-standard-rules-engine
-Configuring GitHub Actions: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions?tabs=userlevel
+Custom domain name: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-custom-domain-name?tabs=azure-portal. 
+
+HTTP to HTTPS redirect: https://learn.microsoft.com/en-us/azure/cdn/cdn-standard-rules-engine  
+
+Configuring GitHub Actions: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions?tabs=userlevel. 
+(overwrite command is needed so that changes to website can be commited and deployed to your site!)
