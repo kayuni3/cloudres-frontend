@@ -126,7 +126,7 @@ nav a {
     margin-left: 0.2em;
     margin-right: 0.2em;
     margin-top: 0.2em;
-    background-color:rgb(244, 221, 92, 0.5);
+    background-color:#ff0000;
 }
 nav a.active {
     background-color:rgb(230, 227, 230, 0.8);
@@ -221,7 +221,7 @@ footer a, section a{
 }
 .contactstatement{
     font-family: 'Fraunces', serif;
-    color: rgb(12, 12, 12);
+    color: #ff0000;
     text-align: center;
     opacity: 1.0;
     font-size: 1.0em;
@@ -252,7 +252,7 @@ footer a, section a{
 }
 
 .highlight{
-    background-color: rgb(244, 221, 92, 0.8);
+    background-color: #ff0000;
     border-radius: 5px;
 }
 
