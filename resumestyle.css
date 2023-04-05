@@ -156,6 +156,9 @@ section a{
   .column, .hpleftcolumn, .hprightcolumn {
     width: 100%;
   }
+.socials li{
+	display: inline;
+	}
 }
 
 @media only screen and (max-width: 768px) {
