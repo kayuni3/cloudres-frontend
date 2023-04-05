@@ -90,7 +90,6 @@ h2{
 nav {
     background-color: rgba(255, 255, 255, 0.8);
     display: flex;
-    padding-bottom: 0;
     margin-bottom: 1em;
  }
 
