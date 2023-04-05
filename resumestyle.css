@@ -125,7 +125,7 @@ nav a {
 
 }
 
-nav i {
+.Navbar__Link-toggle {
 	display: none;
 }
 nav a.active {
