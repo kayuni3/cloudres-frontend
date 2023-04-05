@@ -8,8 +8,6 @@ body {
     background-size: cover;
 	margin: 0 auto !important; 
 	float: none !important; 
-    filter: grayscale(100%);
-    opacity: 80%;
 }
 header {
     display: inline;
