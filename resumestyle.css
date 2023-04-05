@@ -177,6 +177,7 @@ section a{
     padding-top: 0;
      width: 3.5em;
      height: 3.5em;
+    margin: 0;
 	}
 .socials li{
 	display: inline;
