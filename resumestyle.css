@@ -92,6 +92,7 @@ nav {
     top: 0;
     background-color: rgba(255, 255, 255, 0.8);
     height: 3.5em;
+    display: flex;
 }
 
 /* ul is for unordered lists, Buttons instead of ugly links*/
@@ -105,8 +106,7 @@ nav ul {
 }
 nav li{
     float: left;
-    margin: 0;
-    padding: 0;
+    display: flex;
 }
 
 nav a {
@@ -130,6 +130,10 @@ nav a:hover:not(.active) {
     background-color: rgb(255,250,240);
     color: black;
     margin: auto;
+}
+
+nav a.toggle {
+	display: none;
 }
 
 section::after{
@@ -163,14 +167,23 @@ section a{
   }
 }
 @media screen and (max-width: 700px) {
-    nav ul {
-      width: 100%;
-      height: auto;
-      position: relative;
+    nav, nav li {
+      flex-direction: column;
     }
-    nav a {float: left;}
-    div.content {margin-left: 0;}
-  }
+    nav li {
+	    display: none;
+	}
+	
+    .toggleshow {
+	    display: flex;
+	}
+    nav a.toggle {
+	    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+	}
+}
   
   /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
   @media only screen and (min-width: 380px) {
