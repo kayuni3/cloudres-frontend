@@ -153,11 +153,8 @@ section::after{
     font-size: 2em;
 }
 
-.backgroundblue{
-    background-color: rgb(230, 227, 230, 0.8);
-    border-radius: 15px;
-    margin-left: 2.5em;
-    margin-right: 2.5em;
+.background1{
+    background-color: rgba(255,182,193, 0.6);
     margin-top: 3em;
 }
 section a{
