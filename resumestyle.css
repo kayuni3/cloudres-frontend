@@ -155,9 +155,7 @@ section a{
   .column, .hpleftcolumn, .hprightcolumn {
     width: 100%;
   }
-.socials li{
-	display: inline;
-	}
+	
 }
 
 @media only screen and (max-width: 768px) {
@@ -180,6 +178,14 @@ section a{
 	   padding-bottom: .5em;
 	   padding-top: 0;
 	}
+.socials li{
+	display: inline;
+	}
+.socials img {
+	width: 1.5em;
+	height:1.5em;
+	}
+	
 }
   
   /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
