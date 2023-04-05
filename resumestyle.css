@@ -155,14 +155,7 @@ section a{
     color:rgb(106, 111, 113);
     opacity: 0.85;
 }
-
 /* responsive layout for different browsers */
-@media screen and (max-width: 600px) {
-  .column, .hpleftcolumn, .hprightcolumn {
-    width: 100%;
-  }
-	
-}
 
 @media only screen and (max-width: 768px) {
     nav, .Navbar__Items {
@@ -191,6 +184,10 @@ section a{
 	width: 1.5em;
 	height:1.5em;
 	}
+	
+.column, .hpleftcolumn, .hprightcolumn {
+    width: 100%;
+  }
 	
 }
   
