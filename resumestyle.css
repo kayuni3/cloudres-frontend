@@ -178,6 +178,7 @@ section a{
     position: absolute;
     cursor: pointer;
 	   padding-bottom: .5em;
+	   padding-top: 0;
 	}
 }
   
