@@ -91,8 +91,7 @@ nav {
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.8);
     display: flex;
-    padding: 1em;
-}
+ }
 
 /* ul is for unordered lists, Buttons instead of ugly links*/
 nav ul {
@@ -426,6 +425,7 @@ h3{
     background-color: rgba(255, 182, 193, 0.7);
     text-align: center;
     padding-bottom: 3em;
+    width: 80%;
 }
 
 .hprightcolumn {
