@@ -89,12 +89,7 @@ h2{
 /* using html semantic elements */
 nav {
     width: 100%;
-    background-color: rgba(185, 185, 185, 0.8);
-    position: fixed;
     top: 0;
-    padding-bottom: 0;
-    margin-bottom: 1em;
-    
 }
 
 /* ul is for unordered lists, Buttons instead of ugly links*/
@@ -121,14 +116,12 @@ nav a {
     font-family: 'Playfair Display', serif;
     font-style: italic;
     text-transform: lowercase;
-    border-radius: 10px;
     margin-left: 0.2em;
     margin-right: 0.2em;
     margin-top: 0.2em;
-    background-color:rgba(255,0,0, 0.5);
 }
 nav a.active {
-    background-color:rgb(230, 227, 230, 0.8);
+    background-color:rgba(255,0,0, 0.5);
     color: rgb(109, 109, 109);
     opacity: 0.7;
     margin-left: 0.2em;
@@ -137,7 +130,7 @@ nav a.active {
   
 }
 nav a:hover:not(.active) {
-    background-color: rgb(159, 157, 157);
+    background-color: rgb(230, 227, 230);
     color: white;
     margin-left: 0.2em;
     margin-right: 0.2em;
@@ -150,15 +143,7 @@ section::after{
     clear: both;
 }
 
-footer {
-    background-color:rgba(255,0,0, 0.5);
-    color: rgb(14, 14, 14);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding-top: 0;
-    margin-top: 0;
-}
+
 .tagline{
     font-weight: 500;
     color: #555;
@@ -166,6 +151,7 @@ footer {
     text-align: center;
     font-size: 2em;
 }
+
 .backgroundblue{
     background-color: rgb(230, 227, 230, 0.8);
     border-radius: 15px;
@@ -173,7 +159,7 @@ footer {
     margin-right: 2.5em;
     margin-top: 3em;
 }
-footer a, section a{
+section a{
     color:rgb(106, 111, 113);
     opacity: 0.85;
 }
@@ -445,4 +431,7 @@ h3{
     width: 67%;
 }
 
+.background2 {
+    background-color: rgb(230, 227, 230, 0.8);
+}
 
