@@ -90,6 +90,8 @@ h2{
 nav {
     background-color: rgba(255, 255, 255, 0.8);
     display: flex;
+    padding-bottom: 0;
+    margin-bottom: 1em;
  }
 
 /* ul is for unordered lists, Buttons instead of ugly links*/
@@ -165,7 +167,7 @@ section a{
 @media only screen and (max-width: 768px) {
     nav, .Navbar__Items {
       flex-direction: column;
-	    padding-left: .5em;
+      padding-left: .5em;
     }
      .Navbar__Items {
 	    display: none;
@@ -255,6 +257,7 @@ section a{
     display: table-cell;
     vertical-align: middle;
     padding-left: .5em;
+    padding-right: 1em;
 
     }
 
@@ -442,6 +445,7 @@ h3{
 .hprightcolumn {
 	float: right;
 	width: 15%;
+
 }
 
 h4 {
