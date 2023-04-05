@@ -425,12 +425,10 @@ h3{
 
 .hpleftcolumn {
     float: left;
-    width: 67%;
-    background-color: rgba(255,182,193, 0.7);
+    background-color: rgba(255, 182, 193, 0.7);
 }
 
 .hprightcolumn {
-	float: right;
 	width: 32%;
 }
 
