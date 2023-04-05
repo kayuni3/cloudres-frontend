@@ -104,9 +104,14 @@ nav ul {
     border-radius: .5em;
      /*nav bar follows as you scroll */
 }
+
 nav li{
     float: left;
     display: flex;
+}
+
+.Navbar__Items {
+  display: flex;
 }
 
 nav a {
@@ -159,18 +164,18 @@ section a{
     width: 100%;
   }
 }
-@media screen and (max-width: 700px) {
-    nav, nav li {
+@media only screen and (max-width: 700px) {
+    nav, .Navbar__Items {
       flex-direction: column;
     }
-    nav li {
+     .Navbar__Items {
 	    display: none;
 	}
 	
-    .toggleshow {
+    .Navbar__ToggleShow {
 	    display: flex;
 	}
-    nav a.toggle {
+   .Navbar__Link-toggle {
 	    align-self: flex-end;
     display: initial;
     position: absolute;
