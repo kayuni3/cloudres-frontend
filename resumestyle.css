@@ -155,7 +155,7 @@ section a{
 
 /* responsive layout for different browsers */
 @media screen and (max-width: 600px) {
-  .column {
+  .column, .hpleftcolumn, .hprightcolumn {
     width: 100%;
   }
 }
