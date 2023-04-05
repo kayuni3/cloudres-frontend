@@ -120,6 +120,10 @@ nav a {
     text-transform: lowercase;
     margin: auto;
 }
+
+nav i {
+	display: none;
+}
 nav a.active {
     background-color: rgba(176,196,222, 0.8);
     color: rgb(0, 0, 0);
@@ -132,9 +136,6 @@ nav a:hover:not(.active) {
     margin: auto;
 }
 
-nav a.toggle {
-	display: none;
-}
 
 section::after{
     content: "";
