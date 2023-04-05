@@ -164,6 +164,7 @@ section a{
 @media only screen and (max-width: 768px) {
     nav, .Navbar__Items {
       flex-direction: column;
+	    padding-left: .5em;
     }
      .Navbar__Items {
 	    display: none;
