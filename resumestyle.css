@@ -174,8 +174,10 @@ section a{
     display: initial;
     position: absolute;
     cursor: pointer;
-	   padding-bottom: .5em;
-	   padding-top: 0;
+   padding-bottom: .5em;
+    padding-top: 0;
+     width: 3.5em;
+     height: 3.5em;
 	}
 .socials li{
 	display: inline;
