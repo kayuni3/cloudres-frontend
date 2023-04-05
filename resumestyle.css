@@ -144,14 +144,6 @@ section::after{
 }
 
 
-.tagline{
-    font-weight: 500;
-    color: #555;
-    font-family: 'Alegreya', serif;
-    text-align: center;
-    font-size: 2em;
-}
-
 .background1{
     background-color: rgba(255,182,193, 0.65);
 }
