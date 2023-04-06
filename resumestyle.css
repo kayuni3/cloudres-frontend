@@ -188,7 +188,6 @@ section a:hover {
     margin: 0 0 3em;
 	}
 	
-
 	
 .column, .hpleftcolumn {
     width: 100%;
@@ -198,6 +197,9 @@ section a:hover {
 	display:none;
 	}
 	
+h4 {
+    font-size: 1.5em;
+}
 
 .hpsocials {
     list-style: none;
@@ -237,9 +239,7 @@ section a:hover {
 	
 }
 	
-h4 {
-    font-size: 1.5em;
-}
+
 	
 }
   
@@ -495,7 +495,7 @@ h3{
     text-align: center;
     width: 80%;
     margin: 0;
-    height: 50em;
+    height: 100vh;
     padding-right:0;
 }
 
