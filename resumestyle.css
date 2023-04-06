@@ -34,7 +34,7 @@ header {
 
 .column p, ul{
 
-    font-family: 'Fraunces', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1em;
     padding-right: 1em;
     color: rgb(255, 255, 255);
@@ -61,7 +61,7 @@ header {
 }
  
 h1{
-    font-family: 'Fraunces', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 10em;
     text-align: center;
     color: azure;
@@ -72,7 +72,7 @@ h1{
 }
 
 h2{
-    font-family: 'Fraunces', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 2em;
     color: rgb(43, 44, 44);
     text-transform: lowercase;
@@ -236,7 +236,7 @@ section a:hover {
 }
 
 .fullsection p, li{
-    font-family: 'Fraunces', serif;
+   font-family: 'Playfair Display', serif;
     font-size: 1.2em;
     margin-left: 2em;
     padding-right: 1em;
