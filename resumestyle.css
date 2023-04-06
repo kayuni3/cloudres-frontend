@@ -204,30 +204,28 @@ section a:hover {
 	display:none;
 	}
 	
-.hpsocials {
+
+
+.socials{
     list-style: none;
-    margin: 0;
-    padding-top: 1em;
-    display: flex;
-	
-}
-
-.hpsocials li{
-    font-size: 1em;
-    margin-top: .5em;
-    margin-left: 0;
-    padding-bottom: 4em;
-    
-}
-
-.hpsocials img{
-    width: 10em;
-    height: 10em;
+    margin: auto;
+    width:100%;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: .5em;
     padding-right: 1em;
-    padding-bottom: 2em;
-    float: left;
-    
 
+    }
+
+.socials li{
+    padding-left: .5em;
+   padding-bottom: 1em;
+}
+
+.socials img{
+    width: 2em;
+    height: 2em;
 }
 	
 .hpleftcolumn {
