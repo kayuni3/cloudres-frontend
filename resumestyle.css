@@ -119,10 +119,12 @@ nav a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     padding-right: .5em;
-    font-family: 'Playfair Display', serif;
     margin-left: 0.2em;
     margin-right: 0.2em;
     margin-top: 0.2em;
+    font-family: ff-tisa-sans-web-pro, sans-serif;
+    font-style: normal;
+    font-weight: 100;
  
 }
 
