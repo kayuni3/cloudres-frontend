@@ -17,6 +17,10 @@ header {
     background-color:  rgb(251, 229, 233);
     margin: 0; 
   }
+
+section {
+	margin-top:0;
+}
 .column {
     float: left;
     width: 45%;
