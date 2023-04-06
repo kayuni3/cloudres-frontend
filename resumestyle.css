@@ -128,7 +128,7 @@ nav a {
 	display: none;
 }
 nav a.active {
-    background-color: rgba(176,196,222, 0.8);
+    background-color: LightGray;
     color: rgb(0, 0, 0);
 }
 nav a:hover:not(.active) {
