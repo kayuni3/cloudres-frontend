@@ -208,6 +208,12 @@ section a:hover {
          padding: .5em .5em;
 	
 }
+	h4 {
+    font-size: 1.5em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+	
 }
   
   /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
