@@ -199,7 +199,13 @@ section a:hover {
     width: 100%;
   }
  .navpgtitle {
-	 display: inline;
+	 display: initial;
+	 float: left;
+         color: rgb(0, 0, 0);
+         font-family: 'Playfair Display', serif;
+         font-style: normal;
+         font-weight: 100;
+         padding: .5em .5em;
 	
 }
 }
@@ -456,7 +462,7 @@ h3{
     text-align: center;
     width: 80%;
     margin: 0;
-    height: 40em;
+    height: 50em;
 }
 
 .hpleftcolumn p{
@@ -495,12 +501,6 @@ h4 {
 }
 		
 .navpgtitle {
-    float: left;
-    color: rgb(0, 0, 0);
-    font-family: 'Playfair Display', serif;
-    font-style: normal;
-    font-weight: 100;
-    padding: .5em .5em;
     display: none;
 }
 	
