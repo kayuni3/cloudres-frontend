@@ -447,10 +447,12 @@ h3{
 }
 
 h4 {
-    font-family: 'Alegreya', serif;
+    font-family: ff-tisa-sans-web-pro, sans-serif;
+    font-style: normal;
+    font-weight: 100;
     color:azure;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 3em;
 }
 
 
