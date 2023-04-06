@@ -169,7 +169,7 @@ section a:hover {
       flex-direction: column;
       padding-left: .5em;
     }
-     .Navbar__Items {
+     .Navbar__Items{
 	    display: none;
 	}
 	
@@ -198,6 +198,8 @@ section a:hover {
 .column, .hpleftcolumn, .hprightcolumn {
     width: 100%;
   }
+ .navpgtitle {
+	 display: inline;
 	
 }
   
@@ -492,10 +494,12 @@ h4 {
 }
 		
 .navpgtitle {
+    float: left;
     color: rgb(0, 0, 0);
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 100;
     padding: .5em .5em;
+    display: none;
 }
 	
