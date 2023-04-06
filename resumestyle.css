@@ -185,21 +185,58 @@ section a:hover {
     padding-top: 0;
      width: 3.5em;
      height: 3.5em;
-    margin: 0;
+    margin: 0 0 3em;
 	}
 .socials li{
 	display: inline;
 	}
+	
 .socials img {
 	width: 1.5em;
 	height:1.5em;
 	}
 	
-.column, .hpleftcolumn, .hprightcolumn {
+.column, .hpleftcolumn {
     width: 100%;
   }
+	
+.hprightcolumn {
+	display:none;
+	}
+	
+.hpsocials {
+    list-style: none;
+    margin: 0;
+    padding-top: 1em;
+    display: flex;
+	
+}
+
+.hpsocials li{
+    font-size: 1em;
+    margin-top: .5em;
+    margin-left: 0;
+    padding-bottom: 4em;
+    
+}
+
+.hpsocials img{
+    width: 10em;
+    height: 10em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+    float: left;
+    
+
+}
+	
+.hpleftcolumn {
+	height: 100vh;
+	}
+	
  .navpgtitle {
-	 display: initial;
+	 display: flex;
+	 flex-direction: row;
 	 float: left;
          color: rgb(0, 0, 0);
          font-family: 'Playfair Display', serif;
@@ -516,4 +553,8 @@ h4 {
         margin-left: auto;
         margin-right: auto;
         width: 40%;
+}
+
+.hpsocials {
+	display:none;
 }
