@@ -149,7 +149,7 @@ section::after{
 
 
 .background1{
-    background-color: rgba(255,182,193, 0.65);
+    background-color: rgba(255,182,193, 0.5);
 }
 
 section a{
@@ -276,6 +276,7 @@ section a:hover {
     font-size: 1.0em;
     margin-top: 1em;
 }
+
 .fullsection{
     width: 100%;
     padding-bottom: 3em;
