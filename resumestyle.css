@@ -446,7 +446,7 @@ h3{
 
 .hpleftcolumn p{
    font-family: 'Playfair Display', serif;
-   color: white;
+   
    font-size: 1.5em;
 }
 
@@ -465,7 +465,8 @@ h4 {
 
 .tagline{
 	background-color: rgba(255,255,255,0.7);
-	padding: .5em;
+	padding-right: .5em;
+	padding-left: .5em;
 	color: gray;
 }
 		
