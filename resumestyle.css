@@ -91,8 +91,7 @@ h2{
 nav {
     background-color: rgba(255, 255, 255, 0.8);
     display: flex;
-    margin-bottom: 1em;
-   width: 100%;
+    width: 100%;
  }
 
 /* ul is for unordered lists, Buttons instead of ugly links*/
@@ -460,6 +459,7 @@ h3{
 .hprightcolumn {
 	width: 15%;
 	margin:0;
+	float: left;
 
 }
 
