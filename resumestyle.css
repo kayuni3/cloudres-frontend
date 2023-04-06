@@ -29,7 +29,7 @@ section {
     margin-top: 1em;
   }
   
-  /* Clear floats after the columns */
+ 
 .row:after {
     content: "";
     display: table;
@@ -91,14 +91,13 @@ h2{
     text-align: center;
     font-size: 1.4em;
 }
-/* using html semantic elements */
+
 nav {
     background-color: rgba(255, 255, 255, 0.8);
     display: flex;
     width: 100%;
  }
 
-/* ul is for unordered lists, Buttons instead of ugly links*/
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -162,13 +161,14 @@ section a:hover {
     text-decoration: underline;
  
 }
-/* responsive layout for different browsers */
 
 @media only screen and (max-width: 768px) {
+    
     nav, .Navbar__Items {
       flex-direction: column;
       padding-left: .5em;
     }
+	
      .Navbar__Items{
 	    display: none;
 	}
@@ -199,8 +199,7 @@ section a:hover {
 	}
 	
 
-
-.hpsocials{
+.hpsocials {
     list-style: none;
     margin: auto;
     width:100%;
@@ -212,12 +211,12 @@ section a:hover {
 
     }
 
-.hpsocials li{
+.hpsocials li {
     padding-left: .5em;
    padding-bottom: 1em;
 }
 
-.hpsocials img{
+.hpsocials img {
     width: 1em;
     height: 1em;
 }
@@ -237,10 +236,9 @@ section a:hover {
          padding: .5em .5em;
 	
 }
-	h4 {
+	
+h4 {
     font-size: 1.5em;
-    padding-bottom: 0;
-    margin-bottom: 0;
 }
 	
 }
@@ -310,7 +308,6 @@ section a:hover {
     min-height: 10em;
     display: table-cell;
     vertical-align: middle;
-    padding-left: .5em;
     padding-right: 1em;
 
     }
@@ -511,6 +508,7 @@ h3{
 	margin:0;
 	float: right;
 	padding-left: 0;
+	padding-right: 5em;
 
 }
 
