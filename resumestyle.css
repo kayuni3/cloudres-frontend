@@ -202,6 +202,7 @@ section a:hover {
 	 display: inline;
 	
 }
+}
   
   /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
   @media only screen and (min-width: 380px) {
