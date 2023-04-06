@@ -98,9 +98,7 @@ nav {
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding-left: 1em;
-    padding-bottom: .5em;
-     /*nav bar follows as you scroll */
+  padding: 0;
 }
 
 nav li{
