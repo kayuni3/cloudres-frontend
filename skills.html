@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Skills</title>
+<!-- setting to configure site for all devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="resumestyle.css">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/d676249ce5.js" crossorigin="anonymous"></script>
+<script>
+  function classToggle() {
+  const navs = document.querySelectorAll('.Navbar__Items')
+  
+  navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+}
+
+document.querySelector('.Navbar__Link-toggle')
+  .addEventListener('click', classToggle);
+  
+</script>
+</head>
+<body>
+<header>
+    <nav>
+        <button class="Navbar__Link-toggle" type="button" onclick="classToggle()"><i class="fa-solid fa-bars">
+        </i></button> 
+        <ul class = "Navbar__Items">
+            <li><a href="./homepage.html">Home</a></li>
+            <li><a href="./aboutme.html">About Me</a></li>
+            <li><a class = "active" href="./skills.html">Skills & Certifications</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./experience.html">Work Experience</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="background1">
+    <article class="column bordercol">
+        <h3 class="highlight2"> Certifications </h3>
+        <p>Note: You can click each badge for verification link</p>
+        <ul class="skill_list">
+            <li>
+                <a href="https://www.credly.com/badges/6c3d2e65-60bb-47bb-8845-f2ded3630107/public_url" target="_blank">
+                <img src="images/az104.png" alt="az104 badge" >
+                </a>
+                <p><span class="bold">Skills measured:</span>
+                    implementing, managing, and monitoring identity, governance, storage, 
+                    compute, and virtual networks in a cloud environment, plus provision, 
+                    size, monitor, and adjust resources, when needed.<br>
+                    <span class="bold">Technologies used:</span> Azure portal, Virtual Networks, Virtual Machines, 
+                    Azure Active Directory, Key Vault, Azure Storage
+                </p>
+            </li>
+             <li>
+                <a href="https://www.credly.com/badges/9125ede3-9144-448b-a051-a60853378a11/public_url" target="_blank">
+                <img src="images/pl300.png" alt="PL300 badge" >
+                </a>
+                <p><span class="bold">Skills measured:</span>
+                    Transforming datasets, creating data models, visualing data, and share assets by using Power BI, using Power Query and writing expressions by using Data Analysis Expressions (DAX), assessing data quality, 
+                    and understanding data security, including row-level security and data sensitivity.<br>
+                    <span class="bold">Technologies used:</span> Power BI, DAX, Power Query, Active Directory
+                </p>
+            </li>
+            <li>
+                <a href="https://www.credly.com/badges/84fa1cee-00ea-4923-b689-5cadc34c598b/public_url" target="_blank">
+                <img src="images/dp900.png" alt="dp900 badge"> 
+                </a>
+                <p><span class="bold">Skills measured:</span>
+                foundational knowledge of core data concepts including relational and non-relational data and 
+                    they're implemention using Microsoft Azure data services, visulizations, and analytics workloads.
+                <br>
+                <span class="bold">Technologies used:</span> Azure portal, Azure SQL, Azure CosmoDB APIs, Cloud Data Services 
+                
+                </p>
+            </li>
+            <li>
+                <a href="https://www.credly.com/badges/3f511af6-1a26-45a1-bb0a-cb094301b0de/public_url" target="_blank">
+                <img src="images/az900.png" alt="az900 badge">
+                </a>
+                <p><span class="bold">Skills measured:</span>
+                    foundational level knowledge of  cloud computing concepts, models, and services, such as public, private, and hybrid cloud, 
+                    infrastructure as a service (IaaS), platform as a service (PaaS), and software as a service (SaaS), and how Azure supports security, privacy, compliance, and trust.<br>
+                    <span class="bold">Technologies used:</span> Azure portal, Azure Key Vault, Azure Storage, Azure Containers, Active Directory 
+                    
+                </p>
+            </li>
+             <li>
+                <a href="https://account.ncees.org/rn/1956535-1425324-56b5afb" target="_blank">
+                <img src="images/NCEES.png" alt="NCEES logo">
+                </a>
+                <p> Fundamentals of Engineering: Civil/Engineering in Training (EIT)
+                   <span class="bold">Skills measured:</span>
+                    knowledge of important civil engineering such as statics, dynamics, mechanics of materials, fluid mechanics, foundation engineering, hydraulics, project management, economics, and statistics.   
+                </p>
+            </li>
+        </ul>
+        
+    </article>
+    <article class="column">
+        <h3 class="highlight2 nopad">Skills</h3>
+        <p>
+        <ul class="skillicon">
+             <li><img src="images/Python.png" alt="python logo"></li>
+             <li><img src="images/azure.png" alt="azure logo"></li>
+             <li><img src="images/html.svg" alt="html logo"></li>
+             <li><img src="images/css.png" alt="css logo"></li>
+             <li><img src="images/javascript.png" alt="jslogo"></li>
+             <li><img src="images/powerbi.png" alt="powerbi logo"></li>
+        </ul>
+        </p>
+        <p>
+        <div class="container">
+            <div class="container__progressbars">
+              <div class="progressbar">
+                <svg class="progressbar__svg">
+                  <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-a shadow"> </circle>
+                </svg>
+                <span class="progressbar__text shadow">Azure</span>
+              </div>
+              <div class="progressbar">
+                <svg class="progressbar__svg">
+                  <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-c shadow"> </circle>
+                </svg>
+                <span class="progressbar__text shadow">Terraform</span>
+              </div>
+          
+              <div class="progressbar">
+                <svg class="progressbar__svg">
+                  <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-d shadow"> </circle>
+                </svg>
+                <span class="progressbar__text shadow">Python</span>
+              </div>
+          
+              <div class="progressbar">
+                <svg class="progressbar__svg">
+                  <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-c shadow"> </circle>
+                </svg>
+                <span class="progressbar__text shadow">SQL</span>
+              </div>
+          
+              <div class="progressbar">
+                <svg class="progressbar__svg">
+                  <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-a shadow"> </circle>
+                </svg>
+                <span class="progressbar__text shadow">Power BI</span>
+              </div>
+          
+              <div class="progressbar">
+                <svg class="progressbar__svg">
+                  <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-d shadow"> </circle>
+                </svg>
+                <span class="progressbar__text shadow">JavaScript</span>
+              </div>
+              <div class="progressbar">
+                <svg class="progressbar__svg">
+                  <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-b shadow"> </circle>
+                </svg>
+                <span class="progressbar__text shadow">HTML</span>
+              </div>
+              <div class="progressbar">
+                <svg class="progressbar__svg">
+                  <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-b shadow"> </circle>
+                </svg>
+                <span class="progressbar__text shadow">CSS</span>
+              </div>
+            </div>
+          </div>
+     </p>
+    </article>
+</section>
+</body>
+</html>
