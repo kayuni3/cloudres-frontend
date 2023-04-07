@@ -486,7 +486,7 @@ h4 {
     font-style: normal;
     color:azure;
     text-align: center;
-    font-size: 3em;
+    font-size: clamp(1rem, 0.75rem + 2vw, 3rem);
     padding-bottom: .5em;
     margin-bottom: 0;
     padding-top: 2em;
