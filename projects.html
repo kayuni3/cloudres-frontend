@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Projects</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="resumestyle.css">
+<script src="https://kit.fontawesome.com/d676249ce5.js" crossorigin="anonymous"></script>
+<script>
+  function classToggle() {
+  const navs = document.querySelectorAll('.Navbar__Items')
+  
+  navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+}
+
+document.querySelector('.Navbar__Link-toggle')
+  .addEventListener('click', classToggle);
+  
+</script>
+</head>
+<body>
+<header>
+    <nav >
+        <button class="Navbar__Link-toggle lightbar" type="button" onclick="classToggle()"><i class="fa-solid fa-bars">
+        </i></button> 
+        <ul class = "Navbar__Items">
+            <li><a href="./homepage.html">Home</a></li>
+            <li><a href="./aboutme.html">About Me</a></li>
+            <li><a href="./skills.html">Skills & Certifications</a></li>
+            <li><a class = "active" href="./projects.html">Projects</a></li>
+            <li><a href="./experience.html">Work Experience</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="background1">
+    <article class="fullsection certtext">
+        <h3 class="highlight2">Projects</h3>
+        <div class="table">
+        <p  class="spacing"> <span class="highlight">
+            Cloud Resume Website</a> </span><br>
+            <span class="bold">Software and Applications:</span> HTML, CSS, Javascript, Python, JSON, Azure, Github Actions
+        </p>
+        <ul class="projecticon">
+            <li><img src="images/Python.png" alt="python logo"></li>
+            <li><img src="images/azure.png" alt="azure logo"></li>
+            <li><img src="images/html.svg" alt="html logo"></li>
+            <li><img src="images/css.png" alt="css logo"></li>
+            <li><img src="images/javascript.png" alt="jslogo"></li>
+        </ul> <br>
+       <ul style="list-style-type: circle;">
+        <li>Developed the front-end of this website using HTML and CSS</li>
+        <li>Deployed this site as a static website using Azure Storage and mapped a custom domain with HTTPS enabled using Azure CDN. 
+        </li>
+        <li>Created a HTTP Trigger API using Azure Functions to to communicate between my site and CosmosDB Table API </li>
+    </ul>
+        <p>You can find an indept discussion of my take on this challenge on my <a href="url" target="_blank">blog.</a>
+        </p>
+    </div>
+    <div class="table">
+           <p  class="spacing"> <span class="highlight">
+           Terraform and Azure Capabilities </span> <br>
+            <span class="bold">Software and Applications:</span> Terraform, Azure Devops, Azure Kubernetes, Azure Virtual Machines, Azure Active Directory, GitHub
+        </p>
+        <ul class="projecticon">
+            <li><img src="images/azure.png" alt="azure logo"></li>
+            <li><img src="images/githublogo.png" alt="github logo"></li>
+       </ul> <br>
+       <ul style="list-style-type: circle;">
+        <li>Implemented Infrastructure as Code (IaC) using Terraform within Azure CloudShell console</li>
+        <li> Implemented CI/CD for a project using Azure Devops and Azure Active Directory resources. 
+        <li>Created various Azure resources such as a Kubernetes cluster, VMs and scale sets, resource groups, and databases.  
+        </li>
+        <li>Developed a multistage YML pipeline to set up CI/CD in Azure DevOps and GitHub</li>
+    </ul>
+        <p>You can find an indept discussion of my take on this challenge on my <a href="url" target="_blank">blog.</a>
+        </p>
+    </div>
+    <div class="table">
+           <p class="spacing"> <span class="highlight">Predictive model using Machine Learning & Power BI</span> 
+            <br>
+            <span class="bold">Software and Applications:</span> Databricks, Apache Spark, Microsoft Power BI, Azure, Python
+        </p>
+        <ul class="projecticon">
+            <li><img src="images/azure.png" alt="azure logo"></li>
+            <li><img src="images/databricks.png" alt="databricks logo"></li>
+       </ul> <br>
+       <ul class="projectdes">
+        <li>Designed an optimal data model by cleaning and transforming a dataset to predict the likelihood of readmissions
+        </li>
+        <li>Used Databricks and Apache Spark to peform data analysis by creating tables, measures, and visuals 
+         </li>
+           <li>Used AutoML classification and regression methods to train Machine Learning models using Python
+         </li>
+        </ul>
+        <p>You can find an indept discussion of my take on this challenge on my <a href="https://dev.to/kayuni3/see-you-soon-predictive-modeling-using-machine-learning-and-data-analysis-4hmf" target="_blank">blog.</a>
+        </p>
+    </div>
+           <p class="spacing"> <span class="highlight">CI/CD Pipeline for Chatbots with ARM template</span> 
+           <br>
+            <span class="bold">Software and Applications:</span> Azure DevOps, Azure App Service, GitHub, YAML
+        </p>
+        <ul class="projecticon">
+            <li><img src="images/azure.png" alt="azure logo"></li>
+            <li><img src="images/githublogo.png" alt="github logo"></li>
+       </ul> <br>
+       <ul style="list-style-type: circle;">
+        <li>Created a chatbot using a .NET Core Template for Bot Framework v4 and tested it locally using a emulator</li>
+        <li>Developed a ARM template and parameter file to deploy resources needed to deploy the Bot to Azure Bot.
+        </li>
+        <li>Developed a multistage YML pipeline to set up CI/CD in Azure DevOps and GitHub</li>
+    </ul>
+        <p>You can find an indept discussion of my take on this challenge on my <a href="url" target="_blank">blog.</a>
+        </p>
+           
+    </article>
+</section>
+
+
+
+</body>
+</html>
