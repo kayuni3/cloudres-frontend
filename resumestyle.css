@@ -414,7 +414,8 @@ h3{
     font-size: 1em;
     margin-top: .5em;
     margin-left: 0;
-    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     margin-bottom: 0;
     
 }
@@ -423,10 +424,10 @@ h3{
     width: 10em;
     height: 10em;
     padding-right: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
     float: left;
 }
-
 
 .skillicon {
     list-style-type: none;
