@@ -662,8 +662,11 @@ h4 {
 }
 
 .headshot {
-	float: right;
-	width: 3em;
-	height:3em;
+	float: left;
+	width: 10em;
+	height:10em;
+        border-radius: 50%;
+        filter: grayscale(1);
+        margin-right: 1em;
 }
 
