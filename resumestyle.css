@@ -656,4 +656,9 @@ h4 {
     line-height: 1.5;
 }
 
+.indentspan {
+
+  text-indent: 50px;
+}
+
 
