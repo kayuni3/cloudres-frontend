@@ -661,4 +661,9 @@ h4 {
   text-indent: 50px;
 }
 
+.headshot {
+	float: right;
+	width: 3em;
+	height:3em;
+}
 
